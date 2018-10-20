@@ -1,0 +1,1 @@
+C:\Users\Goel\Desktop\xamarin-forms-samples-master\WorkingWithMaps\UWP\WorkingWithMaps.UWP.csproj;x86
