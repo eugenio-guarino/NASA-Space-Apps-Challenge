@@ -1,0 +1,15 @@
+C:\Users\Goel\Desktop\LivingQuality\LivingQuality\LivingQuality\obj\Debug\netstandard2.0\LivingQuality.csprojAssemblyReference.cache
+C:\Users\Goel\Desktop\LivingQuality\LivingQuality\LivingQuality\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Goel\Desktop\LivingQuality\LivingQuality\LivingQuality\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\Goel\Desktop\LivingQuality\LivingQuality\LivingQuality\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\Goel\Desktop\LivingQuality\LivingQuality\LivingQuality\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\Goel\Desktop\LivingQuality\LivingQuality\LivingQuality\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Goel\Desktop\LivingQuality\LivingQuality\LivingQuality\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\Goel\Desktop\LivingQuality\LivingQuality\LivingQuality\obj\Debug\netstandard2.0\LivingQuality.csproj.CoreCompileInputs.cache
+C:\Users\Goel\Desktop\LivingQuality\LivingQuality\LivingQuality\obj\Debug\netstandard2.0\LivingQuality.AssemblyInfoInputs.cache
+C:\Users\Goel\Desktop\LivingQuality\LivingQuality\LivingQuality\obj\Debug\netstandard2.0\LivingQuality.AssemblyInfo.cs
+C:\Users\Goel\Desktop\LivingQuality\LivingQuality\LivingQuality\bin\Debug\netstandard2.0\LivingQuality.deps.json
+C:\Users\Goel\Desktop\LivingQuality\LivingQuality\LivingQuality\bin\Debug\netstandard2.0\LivingQuality.dll
+C:\Users\Goel\Desktop\LivingQuality\LivingQuality\LivingQuality\bin\Debug\netstandard2.0\LivingQuality.pdb
+C:\Users\Goel\Desktop\LivingQuality\LivingQuality\LivingQuality\obj\Debug\netstandard2.0\LivingQuality.dll
+C:\Users\Goel\Desktop\LivingQuality\LivingQuality\LivingQuality\obj\Debug\netstandard2.0\LivingQuality.pdb
