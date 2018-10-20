@@ -976,11 +976,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Goel\\Desktop\\xamarin-forms-samples-master\\WorkingWithMaps\\Android\\WorkingWithMaps.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Goel\\Desktop\\spaceapps\\WorkingWithMaps\\Android\\WorkingWithMaps.Android.csproj",
       "projectName": "WorkingWithMaps.Android",
-      "projectPath": "C:\\Users\\Goel\\Desktop\\xamarin-forms-samples-master\\WorkingWithMaps\\Android\\WorkingWithMaps.Android.csproj",
+      "projectPath": "C:\\Users\\Goel\\Desktop\\spaceapps\\WorkingWithMaps\\Android\\WorkingWithMaps.Android.csproj",
       "packagesPath": "C:\\Users\\Goel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Goel\\Desktop\\xamarin-forms-samples-master\\WorkingWithMaps\\Android\\obj\\",
+      "outputPath": "C:\\Users\\Goel\\Desktop\\spaceapps\\WorkingWithMaps\\Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -997,8 +997,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\Goel\\Desktop\\xamarin-forms-samples-master\\WorkingWithMaps\\WorkingWithMaps\\WorkingWithMaps.csproj": {
-              "projectPath": "C:\\Users\\Goel\\Desktop\\xamarin-forms-samples-master\\WorkingWithMaps\\WorkingWithMaps\\WorkingWithMaps.csproj"
+            "C:\\Users\\Goel\\Desktop\\spaceapps\\WorkingWithMaps\\WorkingWithMaps\\WorkingWithMaps.csproj": {
+              "projectPath": "C:\\Users\\Goel\\Desktop\\spaceapps\\WorkingWithMaps\\WorkingWithMaps\\WorkingWithMaps.csproj"
             }
           }
         }

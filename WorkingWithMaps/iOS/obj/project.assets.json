@@ -814,11 +814,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Goel\\Desktop\\xamarin-forms-samples-master\\WorkingWithMaps\\iOS\\WorkingWithMaps.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Goel\\Desktop\\spaceapps\\WorkingWithMaps\\iOS\\WorkingWithMaps.iOS.csproj",
       "projectName": "WorkingWithMaps.iOS",
-      "projectPath": "C:\\Users\\Goel\\Desktop\\xamarin-forms-samples-master\\WorkingWithMaps\\iOS\\WorkingWithMaps.iOS.csproj",
+      "projectPath": "C:\\Users\\Goel\\Desktop\\spaceapps\\WorkingWithMaps\\iOS\\WorkingWithMaps.iOS.csproj",
       "packagesPath": "C:\\Users\\Goel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Goel\\Desktop\\xamarin-forms-samples-master\\WorkingWithMaps\\iOS\\obj\\",
+      "outputPath": "C:\\Users\\Goel\\Desktop\\spaceapps\\WorkingWithMaps\\iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -835,8 +835,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Goel\\Desktop\\xamarin-forms-samples-master\\WorkingWithMaps\\WorkingWithMaps\\WorkingWithMaps.csproj": {
-              "projectPath": "C:\\Users\\Goel\\Desktop\\xamarin-forms-samples-master\\WorkingWithMaps\\WorkingWithMaps\\WorkingWithMaps.csproj"
+            "C:\\Users\\Goel\\Desktop\\spaceapps\\WorkingWithMaps\\WorkingWithMaps\\WorkingWithMaps.csproj": {
+              "projectPath": "C:\\Users\\Goel\\Desktop\\spaceapps\\WorkingWithMaps\\WorkingWithMaps\\WorkingWithMaps.csproj"
             }
           }
         }

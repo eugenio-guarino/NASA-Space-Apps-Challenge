@@ -19,7 +19,7 @@ namespace WorkingWithMaps
 			var tabs = new TabbedPage ();
 
 			// demonstrates the map control with zooming and map-types
-			tabs.Children.Add (new MapPage {Title = "Pollution Mapp", Icon = "glyphish_74_location.png"});
+			tabs.Children.Add (new MapPage {Title = "Pollution Map", Icon = "glyphish_74_location.png"});
 
 			// demonstrates the map control with zooming and map-types
 			//tabs.Children.Add (new PinPage {Title = "Pins", Icon = "glyphish_07_map_marker.png"});
