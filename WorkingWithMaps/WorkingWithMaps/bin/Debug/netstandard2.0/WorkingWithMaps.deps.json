@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "32a1b8f0837f4c64655bdf5c0dadf7700e5a0569"
+    "signature": "0f9b271a61f5e32eef18bd1133bd06834d0c2253"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,8 +10,9 @@
       "WorkingWithMaps/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
-          "Xamarin.Forms": "3.2.0.839982",
-          "Xamarin.Forms.Maps": "3.2.0.839982"
+          "RestSharp": "106.5.4",
+          "Xamarin.Forms": "3.3.0.912540",
+          "Xamarin.Forms.Maps": "3.3.0.912540"
         },
         "runtime": {
           "WorkingWithMaps.dll": {}
@@ -23,7 +24,15 @@
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
-      "Xamarin.Forms/3.2.0.839982": {
+      "RestSharp/106.5.4": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.5.4.0",
+            "fileVersion": "106.5.4.0"
+          }
+        }
+      },
+      "Xamarin.Forms/3.3.0.912540": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
@@ -39,9 +48,9 @@
           }
         }
       },
-      "Xamarin.Forms.Maps/3.2.0.839982": {
+      "Xamarin.Forms.Maps/3.3.0.912540": {
         "dependencies": {
-          "Xamarin.Forms": "3.2.0.839982"
+          "Xamarin.Forms": "3.3.0.912540"
         },
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Maps.Design.dll": {
@@ -76,19 +85,26 @@
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
-    "Xamarin.Forms/3.2.0.839982": {
+    "RestSharp/106.5.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-BtiTMpmTqkzPPlGvQEVrO51kC1e/vieOaGHB+bKUULER0ruf2EQ92zVRwuvLop60g0WQQJ0Arj45TNCu6qCINQ==",
-      "path": "xamarin.forms/3.2.0.839982",
-      "hashPath": "xamarin.forms.3.2.0.839982.nupkg.sha512"
+      "sha512": "sha512-YaGn6olg2GD0gLy7YDG1FsSnC6TBwgn/zZSONiOj7hPFJJ0Q+k2hBogyalUXkodihVa0ugRwCqSPCiqdNyFKzA==",
+      "path": "restsharp/106.5.4",
+      "hashPath": "restsharp.106.5.4.nupkg.sha512"
     },
-    "Xamarin.Forms.Maps/3.2.0.839982": {
+    "Xamarin.Forms/3.3.0.912540": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MK6ZRo684e8qrU70gEPU4eyEzyAdR1/+PD64m6jd866XDeSB8kwxLqkmR5mung0/Q06/xTVvCutF6isgpArheg==",
-      "path": "xamarin.forms.maps/3.2.0.839982",
-      "hashPath": "xamarin.forms.maps.3.2.0.839982.nupkg.sha512"
+      "sha512": "sha512-Vm3JZ2Vd6u77eIw7XYQY6Ok89DghibebbdrUX/I1z6aJ9ZMJFBJjqwsIlYbpN4BNCm08UqaieG8BrqArJpIMnQ==",
+      "path": "xamarin.forms/3.3.0.912540",
+      "hashPath": "xamarin.forms.3.3.0.912540.nupkg.sha512"
+    },
+    "Xamarin.Forms.Maps/3.3.0.912540": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UgwyNjX1R7Kw0ZRCtYCck9BQ5/thU1mmj65ydh5c+WNF106rVSg7bKUqYfErF+G4MezIDnfx24jf7lMerPJ8HQ==",
+      "path": "xamarin.forms.maps/3.3.0.912540",
+      "hashPath": "xamarin.forms.maps.3.3.0.912540.nupkg.sha512"
     }
   }
 }

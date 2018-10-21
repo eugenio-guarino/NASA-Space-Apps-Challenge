@@ -18,3 +18,15 @@ C:\Users\Alist\Desktop\TempSpaceApps\TempSpaceApps\bin\Debug\RestSharp.dll
 C:\Users\Alist\Desktop\TempSpaceApps\TempSpaceApps\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Alist\Desktop\TempSpaceApps\TempSpaceApps\bin\Debug\RestSharp.xml
 C:\Users\Alist\Desktop\TempSpaceApps\TempSpaceApps\obj\Debug\TempSpaceApps.csprojResolveAssemblyReference.cache
+C:\Users\Goel\Desktop\spaceapps\TempSpaceApps\TempSpaceApps\bin\Debug\TempSpaceApps.exe.config
+C:\Users\Goel\Desktop\spaceapps\TempSpaceApps\TempSpaceApps\bin\Debug\TempSpaceApps.exe
+C:\Users\Goel\Desktop\spaceapps\TempSpaceApps\TempSpaceApps\bin\Debug\TempSpaceApps.pdb
+C:\Users\Goel\Desktop\spaceapps\TempSpaceApps\TempSpaceApps\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Goel\Desktop\spaceapps\TempSpaceApps\TempSpaceApps\bin\Debug\RestSharp.dll
+C:\Users\Goel\Desktop\spaceapps\TempSpaceApps\TempSpaceApps\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Goel\Desktop\spaceapps\TempSpaceApps\TempSpaceApps\bin\Debug\RestSharp.xml
+C:\Users\Goel\Desktop\spaceapps\TempSpaceApps\TempSpaceApps\obj\Debug\TempSpaceApps.csprojAssemblyReference.cache
+C:\Users\Goel\Desktop\spaceapps\TempSpaceApps\TempSpaceApps\obj\Debug\TempSpaceApps.csproj.CoreCompileInputs.cache
+C:\Users\Goel\Desktop\spaceapps\TempSpaceApps\TempSpaceApps\obj\Debug\TempSpaceApps.csproj.CopyComplete
+C:\Users\Goel\Desktop\spaceapps\TempSpaceApps\TempSpaceApps\obj\Debug\TempSpaceApps.exe
+C:\Users\Goel\Desktop\spaceapps\TempSpaceApps\TempSpaceApps\obj\Debug\TempSpaceApps.pdb

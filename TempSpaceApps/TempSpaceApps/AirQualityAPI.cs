@@ -10,6 +10,9 @@ namespace TempSpaceApps
 {
     class AirQualityAPI
     {
+        private RestClient client;
+        private string apiToken;
+
         // API Documentation: https://aqicn.org/json-api/doc/
         private string api_Url = "https://api.waqi.info";
 
@@ -20,59 +23,88 @@ namespace TempSpaceApps
         // token and keyword
         private string api_Search = "https://api.waqi.info/search/?token={0}&keyword={1}";
 
-        private string apiToken = null;
 
         public AirQualityAPI()
         {
-            // Store the token we need to use the AirQuality
+            client = new RestClient(api_Url);
+
+            // Store the token we need to use the waqi api with.
             apiToken = "454cac0b25995e1a4566c412dab345ddacbea0fa";
         }
 
-        public void CityFeed()
+        public DataModel.RootObject CityFeed(string city)
         {
-            var client = new RestClient(api_Url);
+            //var client = new RestClient(api_Url);
 
             var request = new RestRequest("feed/{city}/", Method.GET);
-            request.AddUrlSegment("city", "london");
+            request.AddUrlSegment("city", city);
             request.AddParameter("token", apiToken);
+            Console.WriteLine(client.BuildUri(request));
+
+            IRestResponse response = client.Execute(request);
+            var content = response.Content;
+            
+            var pollutionData = JsonConvert.DeserializeObject<DataModel.RootObject>(content);
+
+            // Sample some more data.
+            //pollutionData.data.NextSample();
+            //pollutionData.data.NextSample();
+            //pollutionData.data.NextSample();
+
+            return pollutionData;
+        }
+
+        public DataModel.RootObject GeolocalisedFeed(double latitude, double longitude)
+        {
+            //var client = new RestClient(api_Url);
+
+            var request = new RestRequest("feed/geo:{lat};{lng}/", Method.GET);
+
+            request.AddUrlSegment("lat", latitude);
+            request.AddUrlSegment("lng", longitude);
+            request.AddParameter("token", apiToken);
+            Console.WriteLine(client.BuildUri(request));
 
             IRestResponse response = client.Execute(request);
             var content = response.Content;
 
-            var pollutionData = JsonConvert.DeserializeObject<DataModel.RootObject>(content);
-
-            pollutionData.data.NextSample();
-            pollutionData.data.NextSample();
-            pollutionData.data.NextSample();
-
-            Console.WriteLine();
+            var stationData = JsonConvert.DeserializeObject<DataModel.RootObject>(content);
+            return stationData;
         }
 
-        //public void Geolocalisation()
-        //{
-        //    var client = new RestClient(api_Url);
+        
+        public DataModel.StationRootObject MapQuery(double latitude1, double longitude1, double latitude2, double longitude2)
+        {
+            var request = new RestRequest("map/bounds/?latlng={lat1},{lng1},{lat2},{lng2}");
 
-        //    var request = new RestRequest("feed", Method.GET);
-        //    request.AddParameter("token", apiToken);
-        //    request.AddUrlSegment("city", "Plymouth");
+            request.AddUrlSegment("lat1", latitude1);
+            request.AddUrlSegment("lng1", longitude1);
+            request.AddUrlSegment("lat2", latitude2);
+            request.AddUrlSegment("lng2", longitude2);
+            request.AddParameter("token", apiToken);
+            Console.WriteLine(client.BuildUri(request));
 
-        //    IRestResponse response = client.Execute(request);
-        //    var content = response.Content;
-        //    Console.WriteLine(content);
-        //}
+            IRestResponse response = client.Execute(request);
+            var content = response.Content;
 
-        //public void Search()
-        //{
-        //    var client = new RestClient(api_Url);
+            var mapData = JsonConvert.DeserializeObject<DataModel.StationRootObject>(content);
+            return mapData;
+        }
 
-        //    var request = new RestRequest("feed", Method.GET);
-        //    request.AddParameter("token", apiToken);
-        //    request.AddUrlSegment("city", "Plymouth");
+        public DataModel.StationRootObject Search(string searchName)
+        {
+            //var client = new RestClient(api_Url);
 
-        //    IRestResponse response = client.Execute(request);
-        //    var content = response.Content;
-        //    Console.WriteLine(content);
-        //}
+            var request = new RestRequest("search/?keyword={search}", Method.GET);
+            request.AddUrlSegment("search", searchName);
+            request.AddParameter("token", apiToken);
+            Console.WriteLine(client.BuildUri(request));
 
+            IRestResponse response = client.Execute(request);
+            var content = response.Content;
+
+            var searchData = JsonConvert.DeserializeObject<DataModel.StationRootObject>(content);
+            return searchData;
+        }
     }
 }

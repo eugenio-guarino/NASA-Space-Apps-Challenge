@@ -26,6 +26,13 @@ namespace WorkingWithMaps.Android
 			global::Xamarin.Forms.Forms.Init (this, bundle);
 			global::Xamarin.FormsMaps.Init (this, bundle);
 
+            var width = Resources.DisplayMetrics.WidthPixels;
+            var height = Resources.DisplayMetrics.HeightPixels;
+            var density = Resources.DisplayMetrics.Density;
+
+            App.ScreenWidth = (width - 0.5f) / density;
+            App.ScreenHeight = (height - 0.5f) / density;
+
 			LoadApplication (new App ()); // method is new in 1.3
 		}
 	}

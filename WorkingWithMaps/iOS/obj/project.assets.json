@@ -2,7 +2,16 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
-      "Xamarin.Forms/3.2.0.839982": {
+      "RestSharp/106.5.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      },
+      "Xamarin.Forms/3.3.0.912540": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -121,14 +130,14 @@
           }
         },
         "build": {
-          "build/netstandard2.0/Xamarin.Forms.props": {},
-          "build/netstandard2.0/Xamarin.Forms.targets": {}
+          "build/Xamarin.Forms.props": {},
+          "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/3.2.0.839982": {
+      "Xamarin.Forms.Maps/3.3.0.912540": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.2.0.839982"
+          "Xamarin.Forms": "3.3.0.912540"
         },
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
@@ -143,8 +152,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.2.0.839982",
-          "Xamarin.Forms.Maps": "3.2.0.839982"
+          "RestSharp": "106.5.4",
+          "Xamarin.Forms": "3.3.0.912540",
+          "Xamarin.Forms.Maps": "3.3.0.912540"
         },
         "compile": {
           "bin/placeholder/WorkingWithMaps.dll": {}
@@ -155,7 +165,16 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
-      "Xamarin.Forms/3.2.0.839982": {
+      "RestSharp/106.5.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      },
+      "Xamarin.Forms/3.3.0.912540": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -274,14 +293,14 @@
           }
         },
         "build": {
-          "build/netstandard2.0/Xamarin.Forms.props": {},
-          "build/netstandard2.0/Xamarin.Forms.targets": {}
+          "build/Xamarin.Forms.props": {},
+          "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/3.2.0.839982": {
+      "Xamarin.Forms.Maps/3.3.0.912540": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.2.0.839982"
+          "Xamarin.Forms": "3.3.0.912540"
         },
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
@@ -296,8 +315,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.2.0.839982",
-          "Xamarin.Forms.Maps": "3.2.0.839982"
+          "RestSharp": "106.5.4",
+          "Xamarin.Forms": "3.3.0.912540",
+          "Xamarin.Forms.Maps": "3.3.0.912540"
         },
         "compile": {
           "bin/placeholder/WorkingWithMaps.dll": {}
@@ -308,7 +328,16 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
-      "Xamarin.Forms/3.2.0.839982": {
+      "RestSharp/106.5.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      },
+      "Xamarin.Forms/3.3.0.912540": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -427,14 +456,14 @@
           }
         },
         "build": {
-          "build/netstandard2.0/Xamarin.Forms.props": {},
-          "build/netstandard2.0/Xamarin.Forms.targets": {}
+          "build/Xamarin.Forms.props": {},
+          "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/3.2.0.839982": {
+      "Xamarin.Forms.Maps/3.3.0.912540": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.2.0.839982"
+          "Xamarin.Forms": "3.3.0.912540"
         },
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
@@ -449,8 +478,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.2.0.839982",
-          "Xamarin.Forms.Maps": "3.2.0.839982"
+          "RestSharp": "106.5.4",
+          "Xamarin.Forms": "3.3.0.912540",
+          "Xamarin.Forms.Maps": "3.3.0.912540"
         },
         "compile": {
           "bin/placeholder/WorkingWithMaps.dll": {}
@@ -461,7 +491,16 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
-      "Xamarin.Forms/3.2.0.839982": {
+      "RestSharp/106.5.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      },
+      "Xamarin.Forms/3.3.0.912540": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -580,14 +619,14 @@
           }
         },
         "build": {
-          "build/netstandard2.0/Xamarin.Forms.props": {},
-          "build/netstandard2.0/Xamarin.Forms.targets": {}
+          "build/Xamarin.Forms.props": {},
+          "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/3.2.0.839982": {
+      "Xamarin.Forms.Maps/3.3.0.912540": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.2.0.839982"
+          "Xamarin.Forms": "3.3.0.912540"
         },
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
@@ -602,8 +641,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.2.0.839982",
-          "Xamarin.Forms.Maps": "3.2.0.839982"
+          "RestSharp": "106.5.4",
+          "Xamarin.Forms": "3.3.0.912540",
+          "Xamarin.Forms.Maps": "3.3.0.912540"
         },
         "compile": {
           "bin/placeholder/WorkingWithMaps.dll": {}
@@ -615,24 +655,38 @@
     }
   },
   "libraries": {
-    "Xamarin.Forms/3.2.0.839982": {
-      "sha512": "BtiTMpmTqkzPPlGvQEVrO51kC1e/vieOaGHB+bKUULER0ruf2EQ92zVRwuvLop60g0WQQJ0Arj45TNCu6qCINQ==",
+    "RestSharp/106.5.4": {
+      "sha512": "YaGn6olg2GD0gLy7YDG1FsSnC6TBwgn/zZSONiOj7hPFJJ0Q+k2hBogyalUXkodihVa0ugRwCqSPCiqdNyFKzA==",
       "type": "package",
-      "path": "xamarin.forms/3.2.0.839982",
+      "path": "restsharp/106.5.4",
       "files": [
         ".signature.p7s",
-        "build/netstandard1.0/Mono.Cecil.Mdb.dll",
-        "build/netstandard1.0/Mono.Cecil.Pdb.dll",
-        "build/netstandard1.0/Mono.Cecil.Rocks.dll",
-        "build/netstandard1.0/Mono.Cecil.dll",
-        "build/netstandard1.0/System.CodeDom.dll",
-        "build/netstandard1.0/Xamarin.Forms.Build.Tasks.dll",
-        "build/netstandard1.0/Xamarin.Forms.Core.dll",
-        "build/netstandard1.0/Xamarin.Forms.DefaultItems.props",
-        "build/netstandard1.0/Xamarin.Forms.DefaultItems.targets",
-        "build/netstandard1.0/Xamarin.Forms.Xaml.dll",
-        "build/netstandard1.0/Xamarin.Forms.props",
-        "build/netstandard1.0/Xamarin.Forms.targets",
+        "lib/net452/RestSharp.dll",
+        "lib/net452/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.106.5.4.nupkg.sha512",
+        "restsharp.nuspec"
+      ]
+    },
+    "Xamarin.Forms/3.3.0.912540": {
+      "sha512": "Vm3JZ2Vd6u77eIw7XYQY6Ok89DghibebbdrUX/I1z6aJ9ZMJFBJjqwsIlYbpN4BNCm08UqaieG8BrqArJpIMnQ==",
+      "type": "package",
+      "path": "xamarin.forms/3.3.0.912540",
+      "files": [
+        ".signature.p7s",
+        "build/Xamarin.Forms.DefaultItems.props",
+        "build/Xamarin.Forms.DefaultItems.targets",
+        "build/Xamarin.Forms.props",
+        "build/Xamarin.Forms.targets",
+        "build/net461/Mono.Cecil.Mdb.dll",
+        "build/net461/Mono.Cecil.Pdb.dll",
+        "build/net461/Mono.Cecil.Rocks.dll",
+        "build/net461/Mono.Cecil.dll",
+        "build/net461/System.CodeDom.dll",
+        "build/net461/Xamarin.Forms.Build.Tasks.dll",
+        "build/net461/Xamarin.Forms.Core.dll",
+        "build/net461/Xamarin.Forms.Xaml.dll",
         "build/netstandard2.0/Mono.Cecil.Mdb.dll",
         "build/netstandard2.0/Mono.Cecil.Pdb.dll",
         "build/netstandard2.0/Mono.Cecil.Rocks.dll",
@@ -640,11 +694,7 @@
         "build/netstandard2.0/System.CodeDom.dll",
         "build/netstandard2.0/Xamarin.Forms.Build.Tasks.dll",
         "build/netstandard2.0/Xamarin.Forms.Core.dll",
-        "build/netstandard2.0/Xamarin.Forms.DefaultItems.props",
-        "build/netstandard2.0/Xamarin.Forms.DefaultItems.targets",
         "build/netstandard2.0/Xamarin.Forms.Xaml.dll",
-        "build/netstandard2.0/Xamarin.Forms.props",
-        "build/netstandard2.0/Xamarin.Forms.targets",
         "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
         "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid10/FormsViewGroup.dll",
@@ -760,14 +810,14 @@
         "lib/uap10.0/Xamarin.Forms.Platform.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.2.0.839982.nupkg.sha512",
+        "xamarin.forms.3.3.0.912540.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
-    "Xamarin.Forms.Maps/3.2.0.839982": {
-      "sha512": "MK6ZRo684e8qrU70gEPU4eyEzyAdR1/+PD64m6jd866XDeSB8kwxLqkmR5mung0/Q06/xTVvCutF6isgpArheg==",
+    "Xamarin.Forms.Maps/3.3.0.912540": {
+      "sha512": "UgwyNjX1R7Kw0ZRCtYCck9BQ5/thU1mmj65ydh5c+WNF106rVSg7bKUqYfErF+G4MezIDnfx24jf7lMerPJ8HQ==",
       "type": "package",
-      "path": "xamarin.forms.maps/3.2.0.839982",
+      "path": "xamarin.forms.maps/3.3.0.912540",
       "files": [
         ".signature.p7s",
         "lib/MonoAndroid10/Xamarin.Forms.Maps.Android.dll",
@@ -791,7 +841,7 @@
         "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll",
         "lib/uap10.0/Xamarin.Forms.Maps.UWP.pri",
         "lib/uap10.0/Xamarin.Forms.Maps.dll",
-        "xamarin.forms.maps.3.2.0.839982.nupkg.sha512",
+        "xamarin.forms.maps.3.3.0.912540.nupkg.sha512",
         "xamarin.forms.maps.nuspec"
       ]
     },
@@ -803,9 +853,10 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "RestSharp >= 106.5.4",
       "WorkingWithMaps >= 1.0.0",
-      "Xamarin.Forms >= 3.2.0.839982",
-      "Xamarin.Forms.Maps >= 3.2.0.839982"
+      "Xamarin.Forms >= 3.3.0.912540",
+      "Xamarin.Forms.Maps >= 3.3.0.912540"
     ]
   },
   "packageFolders": {
@@ -845,13 +896,17 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "RestSharp": {
+            "target": "Package",
+            "version": "[106.5.4, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.2.0.839982, )"
+            "version": "[3.3.0.912540, )"
           },
           "Xamarin.Forms.Maps": {
             "target": "Package",
-            "version": "[3.2.0.839982, )"
+            "version": "[3.3.0.912540, )"
           }
         }
       }

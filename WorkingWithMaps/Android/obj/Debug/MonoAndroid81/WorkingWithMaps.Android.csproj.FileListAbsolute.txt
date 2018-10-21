@@ -211,10 +211,3 @@ C:\Users\Goel\Desktop\spaceapps\WorkingWithMaps\Android\obj\Debug\MonoAndroid81\
 C:\Users\Goel\Desktop\spaceapps\WorkingWithMaps\Android\obj\Debug\MonoAndroid81\linksrc\System.Xml.pdb
 C:\Users\Goel\Desktop\spaceapps\WorkingWithMaps\Android\obj\Debug\MonoAndroid81\linksrc\Xamarin.Forms.Core.pdb
 C:\Users\Goel\Desktop\spaceapps\WorkingWithMaps\Android\obj\Debug\MonoAndroid81\linksrc\Xamarin.Forms.Xaml.pdb
-C:\Users\Goel\Desktop\spaceapps\WorkingWithMaps\Android\bin\Debug\WorkingWithMaps.Android.dll
-C:\Users\Goel\Desktop\spaceapps\WorkingWithMaps\WorkingWithMaps\bin\Debug\netstandard2.0\WorkingWithMaps.dll
-C:\Users\Goel\Desktop\spaceapps\WorkingWithMaps\Android\bin\Debug\WorkingWithMaps.dll.mdb
-C:\Users\Goel\Desktop\spaceapps\WorkingWithMaps\Android\obj\Debug\MonoAndroid81\linksrc\WorkingWithMaps.Android.dll.mdb
-C:\Users\Goel\Desktop\spaceapps\WorkingWithMaps\Android\obj\Debug\MonoAndroid81\linksrc\FormsViewGroup.dll.mdb
-C:\Users\Goel\Desktop\spaceapps\WorkingWithMaps\Android\obj\Debug\MonoAndroid81\linksrc\WorkingWithMaps.dll.mdb
-C:\Users\Goel\Desktop\spaceapps\WorkingWithMaps\Android\obj\Debug\MonoAndroid81\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

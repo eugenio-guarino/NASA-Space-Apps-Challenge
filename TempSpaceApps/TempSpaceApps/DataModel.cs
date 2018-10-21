@@ -119,5 +119,37 @@ namespace TempSpaceApps
             public string status { get; set; }
             public Data data { get; set; }
         }
+
+        public class StationTime
+        {
+            public string tz { get; set; }
+            public string stime { get; set; }
+            public int vtime { get; set; }
+        }
+
+        public class Station
+        {
+            public string name { get; set; }
+            public List<double> geo { get; set; }
+            public string url { get; set; }
+        }
+
+        public class Datum
+        {
+            public double lat { get; set; }
+            public double lon { get; set; }
+            public int uid { get; set; }
+            public string aqi { get; set; }
+
+            public StationTime time { get; set; }
+
+            public Station station { get; set; }
+        }
+
+        public class StationRootObject
+        {
+            public string status { get; set; }
+            public List<Datum> data { get; set; }
+        }
     }
 }
