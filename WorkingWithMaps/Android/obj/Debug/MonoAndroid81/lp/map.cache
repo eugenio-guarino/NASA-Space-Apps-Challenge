@@ -31,3 +31,4 @@ Xamarin.GooglePlayServices.Basement
 Xamarin.GooglePlayServices.Maps
 Xamarin.GooglePlayServices.Tasks
 netstandard
+RestSharp

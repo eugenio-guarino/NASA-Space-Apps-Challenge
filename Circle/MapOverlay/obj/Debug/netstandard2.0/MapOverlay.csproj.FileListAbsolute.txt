@@ -9,3 +9,14 @@ C:\Users\Goel\Desktop\xamarin-forms-samples-master\CustomRenderers\Map\Circle\Ma
 C:\Users\Goel\Desktop\xamarin-forms-samples-master\CustomRenderers\Map\Circle\MapOverlay\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Goel\Desktop\xamarin-forms-samples-master\CustomRenderers\Map\Circle\MapOverlay\obj\Debug\netstandard2.0\MapOverlay.dll
 C:\Users\Goel\Desktop\xamarin-forms-samples-master\CustomRenderers\Map\Circle\MapOverlay\obj\Debug\netstandard2.0\MapOverlay.pdb
+C:\Users\Goel\Desktop\spaceapps\Circle\MapOverlay\bin\Debug\netstandard2.0\MapOverlay.deps.json
+C:\Users\Goel\Desktop\spaceapps\Circle\MapOverlay\bin\Debug\netstandard2.0\MapOverlay.dll
+C:\Users\Goel\Desktop\spaceapps\Circle\MapOverlay\bin\Debug\netstandard2.0\MapOverlay.pdb
+C:\Users\Goel\Desktop\spaceapps\Circle\MapOverlay\obj\Debug\netstandard2.0\MapOverlay.csprojAssemblyReference.cache
+C:\Users\Goel\Desktop\spaceapps\Circle\MapOverlay\obj\Debug\netstandard2.0\OutlookPage.xaml.g.cs
+C:\Users\Goel\Desktop\spaceapps\Circle\MapOverlay\obj\Debug\netstandard2.0\MapOverlay.csproj.CoreCompileInputs.cache
+C:\Users\Goel\Desktop\spaceapps\Circle\MapOverlay\obj\Debug\netstandard2.0\MapOverlay.AssemblyInfoInputs.cache
+C:\Users\Goel\Desktop\spaceapps\Circle\MapOverlay\obj\Debug\netstandard2.0\MapOverlay.AssemblyInfo.cs
+C:\Users\Goel\Desktop\spaceapps\Circle\MapOverlay\obj\Debug\netstandard2.0\MapOverlay.dll
+C:\Users\Goel\Desktop\spaceapps\Circle\MapOverlay\obj\Debug\netstandard2.0\MapOverlay.pdb
+C:\Users\Goel\Desktop\spaceapps\Circle\MapOverlay\obj\Debug\netstandard2.0\XamlC.stamp

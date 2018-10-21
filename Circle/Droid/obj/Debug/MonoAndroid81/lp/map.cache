@@ -1,5 +1,10 @@
 FormsViewGroup
 MapOverlay
+Newtonsoft.Json
+Plugin.CurrentActivity
+Plugin.Geolocator
+Plugin.Permissions
+RestSharp
 System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common

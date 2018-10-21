@@ -47,7 +47,7 @@ namespace WorkingWithMaps.Android
             }
         }
 
-        protected override void OnMapReady(Android.Gms.Maps.GoogleMap map)
+        protected override void OnMapReady(Android.Gms.Maps.GoogleMap map)  
         {
             base.OnMapReady(map);
 

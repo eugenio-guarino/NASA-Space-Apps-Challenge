@@ -39,8 +39,11 @@ namespace MapOverlay.Droid
 
             var circleOptions = new CircleOptions();
             circleOptions.InvokeCenter(new LatLng(circle.Position.Latitude, circle.Position.Longitude));
+
+            // Set circle radius.
             circleOptions.InvokeRadius(circle.Radius);
 
+            // Set circle colour.
             circleOptions.InvokeFillColor(circle.ColorCode);
             circleOptions.InvokeStrokeColor(circle.ColorCode);
             circleOptions.InvokeStrokeWidth(0);

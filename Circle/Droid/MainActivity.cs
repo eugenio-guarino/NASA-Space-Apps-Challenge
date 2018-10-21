@@ -2,6 +2,11 @@
 using Android.App;
 using Android.Content.PM;
 using Android.OS;
+using Android.Runtime;
+
+using Plugin.CurrentActivity;
+using Plugin.Permissions;
+
 
 namespace MapOverlay.Droid
 {
@@ -11,6 +16,7 @@ namespace MapOverlay.Droid
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
+            CrossCurrentActivity.Current.Init(this, bundle);
 
 			global::Xamarin.Forms.Forms.Init (this, bundle);
 			Xamarin.FormsMaps.Init (this, bundle);
@@ -24,5 +30,11 @@ namespace MapOverlay.Droid
 
 			LoadApplication (new App ());
 		}
-	}
+
+        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Android.Content.PM.Permission[] grantResults)
+        {
+            Plugin.Permissions.PermissionsImplementation.Current.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+            base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+        }
+    }
 }
